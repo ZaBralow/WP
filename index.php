@@ -34,7 +34,6 @@
 <div class="txt">
   <p class="travel">TRAVEL</p>
   <h1 style="font-weight: bold; font-size: 1.5vw">Nullam id dolor id nibh ultricies vehicula ut id elit.</h1>
-  <br>
   <p class="taxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor nec tortor vel placerat. Ut porttitor lobortis tincidunt. Suspendisse at odio eu nulla porttitor aliquet. </p>
   <p class="taxt">Maecenas vel nunc ac turpis facilisis egestas. Duis hendrerit porttitor ligula, non bibendum nulla.</p>
   <input type="button" value="FULL STORY -->" class="full">
@@ -78,8 +77,8 @@
   <div class="nedotxt">
     <h2 class="italic"><span>"</span>Proin consequat, felis eget vestibulum eleifend, lorem risus accumsan nulla, nec facilisis enim justo nec nisi. Vivamus ornare purus in pellentesque congue. Praesent malesuada eros quis semper dapibus.<span>"</span></p>
     <p><span>VEN DIESEL</span> 1962-2006</p>
-    <input type="button" value="FULL STORY -->" class="full3">
   </div>
+      <input type="button" value="FULL STORY -->" class="full3">
 </div>
 </div>
 
@@ -88,17 +87,19 @@
 
 
 
-<div class="caco">
+
+
+<form action="action.php" method="post" class="sending">
+  <div class="caco">
   <p>Like what you're reading? Get weekly updates that will help you grow as a designer.</p>
 </div>
-
-<form action="action.php" method="post">
 <div class="input">
   <input type="text" placeholder="Name" name="name" id="input">
   <input type="text" placeholder="Email" name="mail" id="input">
+  <div>
+  <input type="submit" value="SUBMIT -->" class="full2" name="submit" id="btn">
+  </div>
 </div>
-
-<input type="submit" value="SUBMIT -->" class="full2" name="submit" id="btn"></input>
 </form>
 
 <?php
